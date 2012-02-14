@@ -21,8 +21,7 @@
  * Software Foundation website at <http://www.gnu.org/licenses/>.
  *
  * PHP version 5
- * @copyright  MEN AT WORK 2011 
- * @author     MEN AT WORK <cms@men-at-work.de> 
+ * @copyright  MEN AT WORK 2012
  * @package    extendedEditors
  * @license    GNU/LGPL 
  * @filesource
@@ -33,7 +32,6 @@
  */
 $GLOBALS['TL_HOOKS']['replaceInsertTags'][] = array('mawExtendedInsertTags', 'mawReplaceInsertTags');
 $GLOBALS['TL_HOOKS']['replaceInsertTags'][] = array('mawExtendedInsertTags', 'mawReplaceLanguageTags');
-$GLOBALS['TL_HOOKS']['getContentElement'][] = array('mawExtendedLightbox', 'mawReplaceLightbox');
-$GLOBALS['TL_HOOKS']['getImage'][] = array('mawExtendedCrop', 'mawExtendedGetImage');
+$GLOBALS['TL_HOOKS']['getContentElement'][] = array('mawExtendedLightbox', 'getContentElement');
 
 ?>

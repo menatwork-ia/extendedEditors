@@ -21,8 +21,7 @@
  * Software Foundation website at <http://www.gnu.org/licenses/>.
  *
  * PHP version 5
- * @copyright  MEN AT WORK 2011 
- * @author     MEN AT WORK <cms@men-at-work.de> 
+ * @copyright  MEN AT WORK 2012 
  * @package    Language
  * @license    GNU/LGPL 
  * @filesource
@@ -32,7 +31,4 @@
 /**
  * Fields
  */
-$GLOBALS['TL_LANG']['MSC']['cropb'] = 'Image cut down';
-$GLOBALS['TL_LANG']['MSC']['cropt'] = 'Image cut above';
-
 $GLOBALS['TL_LANG']['tl_content']['xlightbox'] = array('Lightbox', 'To trigger the lightbox, enter a rel attribute here.');

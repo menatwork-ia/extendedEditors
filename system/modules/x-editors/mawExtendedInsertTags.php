@@ -22,8 +22,7 @@ if (!defined('TL_ROOT')) die('You can not access this file directly!');
  * Software Foundation website at <http://www.gnu.org/licenses/>.
  *
  * PHP version 5
- * @copyright  MEN AT WORK 2011 
- * @author     MEN AT WORK <cms@men-at-work.de> 
+ * @copyright  MEN AT WORK 2012
  * @package    extendedEditors
  * @license    GNU/LGPL 
  * @filesource
@@ -32,8 +31,7 @@ if (!defined('TL_ROOT')) die('You can not access this file directly!');
 /**
  * Class mawExtendedInsertTags
  *
- * @copyright  MEN AT WORK 2011 
- * @author     MEN AT WORK <cms@men-at-work.de> 
+ * @copyright  MEN AT WORK 2012
  * @package    Frontend
  */
 class mawExtendedInsertTags extends Controller
