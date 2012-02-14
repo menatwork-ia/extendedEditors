@@ -32,6 +32,5 @@
  */
 $GLOBALS['TL_HOOKS']['replaceInsertTags'][] = array('mawExtendedInsertTags', 'mawReplaceInsertTags');
 $GLOBALS['TL_HOOKS']['replaceInsertTags'][] = array('mawExtendedInsertTags', 'mawReplaceLanguageTags');
-$GLOBALS['TL_HOOKS']['getContentElement'][] = array('mawExtendedLightbox', 'getContentElement');
 
 ?>
