@@ -1,0 +1,39 @@
+{
+	"name":"menatwork/extendededitors",
+	"description":"New inserttags for external URLs and current language",
+	"keywords":["editors", "inserttag", "language"],
+	"type":"contao-module",
+	"license":"LGPL-3.0+",
+	"authors":[
+		{
+			"name":"Andreas Isaak",
+			"email":"isaak@men-at-work.de",
+			"homepage":"http://www.men-at-work.de",
+			"role":"Developer"
+		},
+		{
+			"name":"Stefan Heimes",
+			"email":"maack@men-at-work.de",
+			"homepage":"http://www.men-at-work.de",
+			"role":"Developer"
+		}
+	],
+	"require":{
+		"php":">=5.3",
+		"contao/core":">=2.11,<4",
+		"contao-community-alliance/composer-installer":"*"
+	},
+	"autoload":{
+		"classmap":["system/"]
+	},
+	"replace":{
+		"contao-legacy/extendededitors":"*"
+	},
+	"extra":{
+		"contao":{
+			"sources":{
+				"system/modules/x-editors":"system/modules/x-editors"
+			}
+		}
+	}
+}
