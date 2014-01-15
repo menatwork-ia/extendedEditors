@@ -64,6 +64,10 @@ class mawExtendedInsertTags extends Controller
             case 'anchor_close':
                 return '</a>';
                 break;
+            case 'download':
+                $objFile = \FilesModel::findByUuid($arrSplit[1]);
+                return '<a title="' . $arrSplit[2] . '" href="' . $objFile->path . '" >' . $arrSplit[2] . '</a>';
+                break;
         }
 
 
