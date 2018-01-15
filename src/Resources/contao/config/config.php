@@ -9,10 +9,8 @@
  * @filesource
  */
 
-namespace MenAtWork\ExtendedEditorsBundle\Resources\contao\config;
-
 /**
  * Hooks
  */
-$GLOBALS['TL_HOOKS']['replaceInsertTags'][] = array('InsertTags', 'ReplaceInsertTags');
-$GLOBALS['TL_HOOKS']['replaceInsertTags'][] = array('InsertTags', 'ReplaceLanguageTags');
+$GLOBALS['TL_HOOKS']['replaceInsertTags'][] = array('MenAtWork\ExtendedEditorsBundle\Contao\InsertTags', 'ReplaceInsertTags');
+$GLOBALS['TL_HOOKS']['replaceInsertTags'][] = array('MenAtWork\ExtendedEditorsBundle\Contao\InsertTags', 'ReplaceLanguageTags');

@@ -7,6 +7,8 @@
 
 namespace MenAtWork\ExtendedEditorsBundle;
 
+use Symfony\Component\HttpKernel\Bundle\Bundle;
+
 class ExtendedEditorsBundle extends Bundle
 {
 }
