@@ -20,7 +20,7 @@
 	],
 	"require":{
 		"php":"^7.0",
-		"contao/core":"^4.4.2"
+		"contao/core-bundle":"^4.4.0"
 	},
 
 	"autoload":{
