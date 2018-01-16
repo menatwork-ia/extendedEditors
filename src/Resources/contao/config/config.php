@@ -12,5 +12,5 @@
 /**
  * Hooks
  */
-$GLOBALS['TL_HOOKS']['replaceInsertTags'][] = array('MenAtWork\ExtendedEditorsBundle\Contao\InsertTags', 'ReplaceInsertTags');
-$GLOBALS['TL_HOOKS']['replaceInsertTags'][] = array('MenAtWork\ExtendedEditorsBundle\Contao\InsertTags', 'ReplaceLanguageTags');
+$GLOBALS['TL_HOOKS']['replaceInsertTags'][] = array('maw.extendededitorsbundle.listener.replaceInsertTags', 'ReplaceInsertTags');
+$GLOBALS['TL_HOOKS']['replaceInsertTags'][] = array('maw.extendededitorsbundle.listener.replaceInsertTags', 'ReplaceLanguageTags');
