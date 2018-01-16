@@ -2,7 +2,7 @@
 	"name":"menatwork/extendededitors",
 	"description":"New inserttags for external URLs and current language",
 	"keywords":["editors", "inserttag", "language"],
-	"type":"contao-module",
+	"type":"contao-bundle",
 	"license":"LGPL-3.0+",
 	"authors":[
 		{
@@ -14,6 +14,12 @@
 		{
 			"name":"Stefan Heimes",
 			"email":"heimes@men-at-work.de",
+			"homepage":"http://www.men-at-work.de",
+			"role":"Developer"
+		},
+		{
+			"name":"Andreas Dziemba",
+			"email":"dziemba@men-at-work.de",
 			"homepage":"http://www.men-at-work.de",
 			"role":"Developer"
 		}
