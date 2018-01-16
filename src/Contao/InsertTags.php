@@ -8,16 +8,16 @@
  * @license    GNU/LGPL
  * @filesource
  */
-
+namespace MenAtWork\ExtendedEditorsBundle\Contao;
 /**
  * Class mawExtendedInsertTags
  *
- * @copyright  MEN AT WORK 2014
+ * @copyright  MEN AT WORK 2018
  * @package    Frontend
  */
-class mawExtendedInsertTags
+class InsertTags
 {
-    public function mawReplaceInsertTags($strTag)
+    public function ReplaceInsertTags($strTag)
     {
         $arrSplit = explode('::', $strTag);
 
@@ -79,7 +79,7 @@ class mawExtendedInsertTags
         return $objResult->mycount;
     }
 
-    public function mawReplaceLanguageTags($strTag)
+    public function ReplaceLanguageTags($strTag)
     {
         if ($strTag == 'actlang') {
             return $GLOBALS['TL_LANGUAGE'];
