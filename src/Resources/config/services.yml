@@ -1,3 +1,4 @@
 services:
   maw.extendededitorsbundle.listener.replaceInsertTags:
     class: MenAtWork\ExtendedEditorsBundle\Contao\InsertTags
+    public: true
